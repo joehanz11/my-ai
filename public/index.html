@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="chat-container">
+        
+        <div id="chat-box">
+        <button id="theme-toggle">🌙 Dark Mode</button>
+        <div id="chat-container">
+        </div>   
+        <div class="message ai-msg">Hello! I'm your Gemini-style assistant. How can I help?</div>
+        
+        
+            <div id="loading" class="message typing-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        
+        <div id="input-area">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Ask anything..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
